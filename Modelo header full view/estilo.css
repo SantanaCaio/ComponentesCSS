@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap'); /* Importação de fonte externa*/
+
+*{
+    box-sizing: border-box; /* Funciona para o padding ser contabilizado na totalidade do elemento*/
+}
+body{
+    margin: 0;/* Margin , para poder colar o conteudo a borda da pagian*/
+    font-family: 'Montserrat', sans-serif; /* tipo da fonte*/
+}
+ul{
+    list-style: none;/* remove a decoração do estilo da lista */
+    display: flex; /* organiza o conteudo para que o conteudo fique lado a lado */
+
+}
+li {
+    margin: 0 15px;/* Espaça os elementos da lista */
+}
+
+nav{
+    display: flex; /* organiza o conteudo para que o conteudo fique lado a lado */
+    justify-content: space-between; /* mantem o espaçamento maximo entre os conteudos dispostos lado a lado*/
+    margin: auto 30px;/* da espaço entre os elementos e a borda da pagina */
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+nav p { /* seleciona as tags nav e p para estilização*/
+    font-weight: bold; /* seleciona a font e a deixa em negrito */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    font-size: 30px; /* define a fonte do texto do nav em 30px */  
+}
+
+header{
+    height: 100vh; /* deixa a largura o elemento elecionado com a largura maxima visivel na pagina */
+    background: no-repeat center/cover url(img-background.jpg); /* imagem que compoe o fundo*/
+}
+h1 {
+    text-align: center;
+}
