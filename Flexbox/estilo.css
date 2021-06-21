@@ -8,7 +8,12 @@
     background-color: orange;
     width: 400px;
     height: 300px;
+    
     display: flex;
+    justify-content: space-between;/* */
+    align-items: center;
+
+     
 }
 
 .verde{
@@ -18,8 +23,12 @@
 }
 
 .conteudo {
-   
+    margin: 0 auto;
+    /* justify-content: space-between; espaça os elementos contidos no pai, de forma proporcional entre eles */
+    /* justify-content: space-around;  espaça oos elementos contidos no elemento pai de forma individual. deixando uma margem dupla entre os elementos */
     display: flex; /* Aplicado ao elemento pai, e lateraliza todos os elementos filhos */
+    justify-content: space-between; /* */
+
 }
 
 .preto{
