@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.laranja{
+    background-color: orange;
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+
+.verde{
+    background-color: forestgreen;
+    width: 400px;
+    height: 300px;
+}
+
+.conteudo {
+   
+    display: flex; /* Aplicado ao elemento pai, e lateraliza todos os elementos filhos */
+}
+
+.preto{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.vermelho{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
