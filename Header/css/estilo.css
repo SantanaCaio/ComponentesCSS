@@ -41,3 +41,36 @@ header{
     color: blanchedalmond;
     text-decoration: none;
 }
+
+.banner{
+    background-image: url(../imagens/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10%;
+}
+
+.texto-banner h1{
+    color: aliceblue;
+    font-size: 76px;
+
+}
+
+.line{
+    width: 40%;
+    height: 1px;
+    background-color: #FDAF00;
+}
+
+.texto-banner span{
+    color: #F9003D;
+    font-size: 40px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 600; 
+}
+
